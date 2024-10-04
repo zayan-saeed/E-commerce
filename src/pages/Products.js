@@ -46,9 +46,9 @@ const Products = () => {
 
   return (
     <div className="products-container">
-      <h1 className="products-heading">
+      <p className="products-heading">
         {category ? category.charAt(0).toUpperCase() + category.slice(1) : 'Products'}
-      </h1>
+      </p>
       <ProductList products={filteredProducts} />
     </div>
   );

@@ -19,7 +19,7 @@ function NavbarComponent() {
 
   return (
     <Navbar className="navbar" expand="lg" fixed="top">
-      <Navbar.Brand as={Link} to="/">E-Thrift</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/" className='me-2'>Wills Cart.</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

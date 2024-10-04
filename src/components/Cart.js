@@ -66,7 +66,7 @@ function Cart() {
                 <span>${finalPrice}</span>
               </div>
             </div>
-            <Link to="/order-placed" className="btn btn-success">Buy Now</Link>
+            <Link to="/order-placed" className="btn btn-success mt-2 ms-1">Buy Now</Link>
           </div>
         </>
       )}

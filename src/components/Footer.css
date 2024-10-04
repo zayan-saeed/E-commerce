@@ -16,21 +16,21 @@ html, body {
 }
 
 .footer {
-  background-color: #ff0000;
-  color: #fff;
+  background-color: #ffc400;
+  color: #000000;
   text-align: center;
   padding: 20px;
   width: 100%;
 }
 
 .footer a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #00c6ff;
+  color: #ffffff;
 }
 
 .footer-link {

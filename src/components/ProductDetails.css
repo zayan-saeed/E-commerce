@@ -51,13 +51,16 @@
   }
   
   .content-section .btn-primary {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #ffc400;
+    
+    transition: background-color 0.3s, transform 0.3s;
   }
   
   .content-section .btn-primary:hover {
-    background-color: #c82333;
-    border-color: #bd2130;
+    background-color: #000000d0; 
+    transform: scale(1.05);
+    text-decoration: none; 
+    color: #ffd900; 
   }
   
   @media (max-width: 768px) {

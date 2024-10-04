@@ -1,32 +1,33 @@
 .navbar {
-  background-color: #ff0000; 
+  background-color: #ffc400; 
   z-index: 1000; 
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid #cc0000; 
+  border-bottom: 1px solid #ffd500; 
   padding: 0.5rem 1rem; 
 }
 
 .navbar-brand {
   font-size: 1.25rem;
-  color: #f8f9fa; 
+  color: #000000; 
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar-brand:hover {
-  color: #ffd700;
+  color: #ffffff;
+  transition: color 0.5s ease;
 }
 
 .nav-link {
-  color: #f8f9fa; 
+  color: #000000; 
   transition: color 0.3s ease; 
 }
 
 .nav-link:hover {
-  color: #ffd700; 
+  color: #ffffff; 
 }
 
 .navbar-nav {
@@ -57,7 +58,7 @@
 .badge {
   font-size: 0.875rem; 
   padding: 0.3rem 0.5rem; 
-  background-color: #ff0000;
+  background-color: #ac9004;
 }
 
 
@@ -69,8 +70,8 @@
   .navbar-collapse {
     flex-direction: column; 
     width: 100%;
-    background-color: #ff0000; 
-    border-top: 1px solid #cc0000; 
+    background-color: #ffd500; 
+    border-top: 1px solid #ffd500; 
   }
 
   .navbar-nav {

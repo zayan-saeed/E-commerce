@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('https://t4.ftcdn.net/jpg/02/63/39/71/360_F_263397111_ezFxtCBNFaSAiuJOpo2UtWrMJKF6G7ik.jpg');
+    background-image: url('D:\Entri\Reactt\E-commerce\src\assets\bg-2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -92,16 +92,6 @@ body {
 .btn-secondary:hover {
     background-color: #5a6268;
     border-color: #545b62;
-}
-
-.btn-danger {
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-
-.btn-danger:hover {
-    background-color: #c82333;
-    border-color: #bd2130;
 }
 
 .cart-summary {

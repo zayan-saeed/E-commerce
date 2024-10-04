@@ -4,8 +4,8 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>© {new Date().getFullYear()} E-Thrift. All rights reserved.</p>
-            <p>Your go-to place for second-hand treasures and more!</p>
+            <p>© {new Date().getFullYear()} Wills Cart.</p>
+            <p>Ultimate shopping destination!</p>
             <div>
                 <a href="/Home" className="footer-link">Home</a> | 
                 <a href="/products" className="footer-link">Products</a> | 

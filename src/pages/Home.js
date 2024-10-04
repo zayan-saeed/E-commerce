@@ -16,10 +16,9 @@ function Home() {
       {/* Hero Section */}
       <header className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to E-Thrift</h1>
+          <h1 className="hero-title">You're at Wills Cart</h1>
           <p className="hero-description">
-            Discover hidden treasures and sustainable style at our online thrift store! We offer a wide variety of gently used products, from clothing and accessories to home decor and electronics. Find unique finds at unbeatable prices while helping the environment.
-          </p>
+          Discover the latest trends and essentials, all delivered to your door.<br></br>Shop smart, save more, and make your wishlist a reality!          </p>
           <Link to="/products" className="button button-primary hero-button">Shop Now</Link>
           </div>
       </header>
@@ -28,11 +27,11 @@ function Home() {
       <section className="featured-products">
         <div className="container d-flex flex-column justify-content-between h-100">
           <div className="featured-products-header text-center mb-4">
-            <h2 className="hero-title">Featured Products</h2>
+            <p className="sub-heading">Featured Products</p>
           </div>
           <div className="d-flex flex-grow-1 align-items-center">
             <div className="row justify-content-center w-100">
-              {products.slice(0, 4).map((product) => (
+              {products.slice(0, 8).map((product) => (
                 <div key={product.id} className="col-md-3 mb-3">
                   <div className="card product-card">
                     <img src={product.image} className="card-img-top" alt={product.title} />
