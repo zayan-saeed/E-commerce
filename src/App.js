@@ -25,7 +25,7 @@ function AppContent() {
         <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/E-commerce" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order-placed" element={<OrderPlaced />} />
@@ -41,7 +41,7 @@ function AppContent() {
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/E-commerce">
         <AppContent />
       </Router>
     </Provider>
