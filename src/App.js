@@ -23,7 +23,7 @@ function AppContent() {
       <Navbar className="navbar" />
       <main>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/E-Commerce" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/" element={<Login />} />
           <Route path="/product/:id" element={<ProductDetails />} />
